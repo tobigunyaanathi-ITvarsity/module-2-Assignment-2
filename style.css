@@ -1,0 +1,53 @@
+body{
+    padding    : 0;
+    margin     : 0;
+    font-family: Helvetica;
+    background-color: palegoldenrod;
+}
+
+#menu{
+    width:100%;
+    height:40px;
+    background-color: cadetblue;
+    padding-top: 12px;
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+}
+
+#menu a{
+    columns: #1a1a1a;;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: 800px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+     color: tomato;
+}
+
+#main{
+    margin-top: 119px;
+    background: url('logo.jpg');
+    background-repeat: no-repeat;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+table{
+    width: 100%;
+    padding-bottom: 80px;
+    
+}
+
+.gallery img{
+    width: 50%;
+}
+
+
